@@ -58,5 +58,5 @@
       
     } )
     
-    console.log()
+    nodes[0].text = 5
   }
