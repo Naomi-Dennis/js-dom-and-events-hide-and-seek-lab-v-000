@@ -51,12 +51,8 @@
   function increaseRankBy(n){
     let nodes = Array.from( document.querySelectorAll(".ranked-list") )
     nodes.map( (par_itr) => { 
-     
       Array.from(par_itr.children).map( (child_itr) =>{
         child_itr.innerHTML = parseInt(child_itr.innerHTML) + n
       })
-      
-    } )
-    
-
+    })
   }
