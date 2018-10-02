@@ -48,4 +48,6 @@
     }, [] ) 
   }
 
-  
+  function increaseRankBy(n){
+    let nodes = document.querySelector("")
+  }
