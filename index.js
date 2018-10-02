@@ -39,8 +39,14 @@
       return [{value: root, level: level}] 
     } 
     
-    return  childNodes.reduce( (accumulator, itr)=>{ accumulator = accumulator.concat( findDeepestChild(itr, level + 1)); return accumulator; }, [] ) 
+    return  childNodes.reduce( (accumulator, itr)=>
+    { 
+      accumulator = accumulator.concat( findDeepestChild(itr, level + 1)); 
+      return accumulator; 
+      
+    }, [] ) 
     
+
   }
 
   
