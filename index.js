@@ -58,5 +58,5 @@
       
     } )
     
-    nodes[0].text = 5
+    nodes[0].text = '5'
   }
