@@ -53,7 +53,7 @@
     nodes.map( (par_itr) => { 
      
       Array.from(par_itr.children).map( (child_itr) =>{
-        child_itr.innerHTML = parseInt(child_itr.innerHTML) + 1
+        child_itr.innerHTML = parseInt(child_itr.innerHTML) + n
       })
       
     } )
