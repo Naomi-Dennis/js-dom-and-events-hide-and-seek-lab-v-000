@@ -6,7 +6,7 @@
   // })
   
   function getFirstSelector(selector){
-    return document.querySelector("div") 
+    return document.querySelector(selector) 
   }
   
   // describe('nestedTarget()', () => {
@@ -14,5 +14,7 @@
   //     expect(nestedTarget()).toEqual(document.querySelector('#nested .target'))
   //   })
   // })
-  
+  function nestedTarget(){
+    
+  }
   
