@@ -27,7 +27,7 @@
   // })
   
   function deepestChild(){
-    
+    return document.querySelector("#grand-node").lastChild
   }
 
   
