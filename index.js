@@ -49,5 +49,14 @@
   }
 
   function increaseRankBy(n){
-    let nodes = document.querySelector("")
+    let nodes = document.querySelector("ranked-list").map( (par_itr) => { 
+      par_itr.children.map( (child_itr) =>{
+        parseInt(child_itr.innerHTML)
+      })
+      
+      
+      
+      
+      
+    } )
   }
