@@ -8,3 +8,11 @@
   function getFirstSelector(selector){
     return document.querySelector("div") 
   }
+  
+  // describe('nestedTarget()', () => {
+  //   it('pulls a .target out of #nested', () => {
+  //     expect(nestedTarget()).toEqual(document.querySelector('#nested .target'))
+  //   })
+  // })
+  
+  
