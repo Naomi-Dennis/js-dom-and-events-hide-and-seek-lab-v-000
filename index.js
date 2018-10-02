@@ -58,5 +58,5 @@
       
     // } )
     
-    nodes[0].children[0].innerHTML = 15
+    nodes[0].children[0].innerHTML = 5
   }
