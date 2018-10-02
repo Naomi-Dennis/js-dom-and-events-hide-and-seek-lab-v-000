@@ -41,7 +41,7 @@
     
     return  childNodes.reduce( (accumulator, itr)=>
     { 
-      accumulator = accumulator.concat( findDeepestChild(itr, level + 1)); 
+      accumulator = accumulator.concat( findDeepestChild(itr, level + 1));                        
       return accumulator; 
       
     }, [] ) 
