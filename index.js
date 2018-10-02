@@ -31,9 +31,12 @@
     
   }
   function findDeepestChild(root){
-    if(root.children == 0){
+    let childNodes = root.children
+    if(childNodes == 0){
       return root 
     } 
+    
+    childNodes.map( (item)=>{ return findDeepestChild(item) } )
     
   }
 
