@@ -53,7 +53,7 @@
     nodes.map( (par_itr) => { 
      
       par_itr.children.map( (child_itr) =>{
-        child_itr.innerHTML = (parseInt(child_itr.innerHTML) + n).toString()
+        child_itr.innerHTML = parseInt(child_itr.innerHTML) + 2
       })
       
     } )
