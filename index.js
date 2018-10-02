@@ -32,7 +32,7 @@
     let lowest = deepNodes.reduce( (node, iter) =>{ node = (iter.level < node.level) ? iter : node } )
     
     console.log(lowest)
-    return lowest
+    return lowest.value
   }
   function findDeepestChild(root, level){
     let childNodes = Array.from(root.children)
