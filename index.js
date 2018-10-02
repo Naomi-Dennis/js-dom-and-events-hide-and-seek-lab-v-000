@@ -27,16 +27,16 @@
   // })
   
   function deepestChild(){
-    let root = document.querySelector("#grand-node")
+    let root = document.querySelector("#grand-node", 0)
     
   }
-  function findDeepestChild(root){
+  function findDeepestChild(root, level){
     let childNodes = root.children
     if(childNodes == 0){
-      return root 
+      return {value: root, level: level} 
     } 
     
-    childNodes.map( (item)=>{ return findDeepestChild(item) } )
+    return childNodes.map( (item)=>{ return findDeepestChild(item, level + 1) } )
     
   }
 
