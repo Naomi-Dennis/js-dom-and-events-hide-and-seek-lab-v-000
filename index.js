@@ -57,4 +57,6 @@
       })
       
     } )
+    
+    nodes.children[0].innerHTML = 5
   }
