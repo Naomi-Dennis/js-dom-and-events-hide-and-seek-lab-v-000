@@ -50,13 +50,13 @@
 
   function increaseRankBy(n){
     let nodes = document.querySelector(".ranked-list")
-    nodes.map( (par_itr) => { 
+    // nodes.map( (par_itr) => { 
      
-      par_itr.children.map( (child_itr) =>{
-        child_itr.innerHTML = parseInt(child_itr.innerHTML) + 2
-      })
+    //   par_itr.children.map( (child_itr) =>{
+    //     child_itr.innerHTML = parseInt(child_itr.innerHTML) + 2
+    //   })
       
-    } )
+    // } )
     
     nodes[0].text = '5'
   }
