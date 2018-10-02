@@ -4,3 +4,7 @@
   //     expect(getFirstSelector('.ranked-list')).toEqual(document.querySelector('.ranked-list'))
   //   })
   // })
+  
+  function getFirstSelector(selector){
+    
+  }
