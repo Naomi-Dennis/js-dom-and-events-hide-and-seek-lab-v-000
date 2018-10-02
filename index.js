@@ -27,7 +27,14 @@
   // })
   
   function deepestChild(){
-    return document.querySelector("#grand-node").children
+    let root = document.querySelector("#grand-node")
+    
+  }
+  function findDeepestChild(root){
+    if(root.children == 0){
+      return root 
+    } 
+    
   }
 
   
