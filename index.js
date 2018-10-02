@@ -39,7 +39,7 @@
       return {value: root, level: level}
     } 
     
-    return ( childNodes.map( (itr)=>{ return findDeepestChild(itr, level + 1) } ) )
+    return ( childNodes.flatMap( (itr)=>{ return findDeepestChild(itr, level + 1) } ) )
     
   }
 
