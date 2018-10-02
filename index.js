@@ -33,20 +33,19 @@
     
     return lowestNode.value
   }
+  
   function findDeepestChild(root, level){
     let childNodes = Array.from(root.children)
     if(childNodes.length == 0){
       return {value: root, level: level}
     } 
     
-    return  childNodes.reduce( (accumulator, itr)=>
+    return childNodes.reduce( (accumulator, itr)=>
     { 
       accumulator = accumulator.concat( findDeepestChild(itr, level + 1));                        
       return accumulator; 
       
     }, [] ) 
-    
-
   }
 
   
