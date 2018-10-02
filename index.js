@@ -30,7 +30,9 @@
     let root = document.querySelector("#grand-node")
     let deepNodes = findDeepestChild(root, 0 )
     let lowest = deepNodes.reduce( (node, iter) =>{ node = (iter.level < node.level) ? iter : node } )
+    
     console.log(lowest)
+    return lowest
   }
   function findDeepestChild(root, level){
     let childNodes = Array.from(root.children)
