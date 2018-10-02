@@ -58,5 +58,5 @@
       
     } )
     
-    nodes[0].innerHTML = 5
+    return nodes
   }
