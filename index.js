@@ -36,7 +36,7 @@
   function findDeepestChild(root, level){
     let childNodes = Array.from(root.children)
     if(childNodes.length == 0){
-      return {value: root, level: level} 
+      return [{value: root, level: level}] 
     } 
     
     return [].concat( childNodes.map( (itr)=>{ return findDeepestChild(itr, level + 1) } ) )
